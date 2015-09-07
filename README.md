@@ -1,6 +1,8 @@
 # robinhood
 
-This library facilitates automated, commission-free stock trading from Python using Robinhood's API.
+This library facilitates automated, commission-free stock trading from Python using Robinhood's API. 
+
+Disclaimer: This is an unofficial library and is not affiliated with Robinhood Markets Inc.
 
 Current Features:
 * Get stock quote
