@@ -15,7 +15,7 @@ print price
 # q = r.get_quote("RJET")
 
 ## Place market order of RJET at best market price
-#order_ID = r.place_buy_order("RJET", 3, "market")
+#order_ID = r.place_buy_order("RJET", 3)
 #print order_ID
 
 ## Place limit order for one share of RJET at $6.24 / share

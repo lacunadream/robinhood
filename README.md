@@ -18,6 +18,8 @@ To install:
 
 Inspired by Rohonpai's Robinhood framework (https://github.com/rohanpai/Robinhood), benkroop/robinhood fixes bugs while adding new features and additional documentation. 
 
+NOTICE: Neither the author nor this library are in any way afilliated with Robinhood Markets Inc. Use of this library is at your own risk. The author makes no warranties express or implied as to the completeness, accuracy or reliability of this library or the Robinhood API. Under no circumstances shall the author be held liable to you for any reliance on functionality of or information obtained through the libary.
+
 Instructions for use:
 ---------------------
 
@@ -25,7 +27,7 @@ Place market order for 3 shares of RJET at best market price:
 
 ```python
 >>> r = Robinhood(username, password)
->>> r.place_buy_order("RJET", 3, "market")
+>>> r.place_buy_order("RJET", 3)
 u'98a8caa4-fddf-df0b-8156-5c474dc01931'
 ```
 Get a quote for AAPL

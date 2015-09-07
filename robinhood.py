@@ -120,13 +120,13 @@ class Robinhood(object):
         else:
             raise Exception("Could not place order: " + res.text)
 
-    def place_buy_order(self, symbol, quantity, order_type=None, bid_price=None):
+    def place_buy_order(self, symbol, quantity, order_type='Market', bid_price=None):
         ''' Places a buy order '''
         i = self.instrument(symbol)[0]
         side = "buy"
         return self.place_order(i, quantity, side, order_type, bid_price)
 
-    def place_sell_order(self, symbol, quantity, order_type=None, bid_price=None):
+    def place_sell_order(self, symbol, quantity, order_type='Market', bid_price=None):
         ''' Places a sell order '''
         i = self.instrument(symbol)[0]
         side = "sell"

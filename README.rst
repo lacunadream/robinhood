@@ -25,7 +25,7 @@ Instructions for use:
 Place market order for 3 shares of RJET at best market price
 ::
 	>>> r = Robinhood(username, password)
-	>>> r.place_buy_order("RJET", 3, "market")
+	>>> r.place_buy_order("RJET", 3)
 	u'98a8caa4-fddf-df0b-8156-5c474dc01931'
 
 Place limit order for 1 share of CSCO at a maximum of $28.42
