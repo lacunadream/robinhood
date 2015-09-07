@@ -2,7 +2,7 @@
 
 This library facilitates automated, commission-free stock trading from Python using Robinhood's API. 
 
-**Disclaimer:** This is an unofficial library and is not affiliated with Robinhood Markets Inc.
+**Disclaimer:** This is an unofficial library and is not affiliated with Robinhood Markets Inc. For more information, read notice at bottom of README.md.
 
 Current Features:
 * Get stock quote
@@ -19,8 +19,6 @@ To install:
 
 
 Inspired by Rohonpai's Robinhood framework (https://github.com/rohanpai/Robinhood), benkroop/robinhood fixes bugs while adding new features and additional documentation. 
-
-NOTICE: Neither the author nor this library are in any way afilliated with Robinhood Markets Inc. Use of this library is at your own risk. The author makes no warranties express or implied as to the completeness, accuracy or reliability of this library or the Robinhood API. Under no circumstances shall the author be held liable to you for any reliance on functionality of or information obtained through the libary.
 
 Instructions for use:
 ---------------------
@@ -70,3 +68,5 @@ Your address is: 1000 Olin Way, Needham, MA 024921200
 ```
 
 To use example.py, first edit auth.txt to include your username and password, each on their own line. You can then uncomment any commands you want to run.
+
+**NOTICE:** Neither the author nor this library are in any way afilliated with Robinhood Markets Inc. Use of this library is at your own risk. The author makes no warranties express or implied as to the completeness, accuracy or reliability of this library or the Robinhood API. Under no circumstances shall the author be held liable to you for any reliance on functionality of or information obtained through the libary.
