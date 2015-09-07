@@ -4,7 +4,7 @@ This library facilitates automated, commission-free stock trading from Python us
 
 **Disclaimer:** This is an unofficial library and is not affiliated with Robinhood Markets Inc.
 
-**Current Features:**
+Current Features:
 * Get stock quote
 * Place market buy / sell orders
 * Place limit buy / sell orders
