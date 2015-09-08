@@ -1,4 +1,4 @@
-from Robinhood import robinhood
+from robinhood import Robinhood
 
 with open('auth.txt', 'r') as f:
     username = f.readline()
